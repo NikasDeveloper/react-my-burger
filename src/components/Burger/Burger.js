@@ -11,7 +11,6 @@ const burger = props => {
       });
     })
     .reduce((arr, el) => [...arr, ...el], []);
-  console.log(ingredients);
   if (ingredients.length === 0) ingredients = <p>Please start adding ingredients!</p>;
   return (
     <div className={classes.Burger}>
