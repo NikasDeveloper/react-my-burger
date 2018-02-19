@@ -1,6 +1,5 @@
 import React from 'react';
 import Aux from '../../../hoc/Aux';
-// import classes from './Modal.css';
 
 const orderSummary = props => {
   const style = { textTransform: 'capitalize' };
